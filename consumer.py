@@ -24,7 +24,7 @@ class KafkaConsumer:
 
         for topic in self.topics:
             ## Set topic name as the Consumer group id
-            self.conf["group.id"] = topic + "-C"
+            self.conf["group.id"] = topic
 
             ## Create the topic partition to consume data from. Assumes only one partition per topic. So, partition = 0
             topic_partition = TopicPartition(topic, 0)

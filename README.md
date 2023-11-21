@@ -1,6 +1,6 @@
-# Kafka Consumer POC for Zee
+# Kafka Consumer POC
 
-This is a small POC on Python Kafka Consumer using `confluent_kafka` library for Zee use case
+This is a small POC on Python Kafka Consumer using `confluent_kafka` library.
 
 ## Pre-requisites
 
