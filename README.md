@@ -24,7 +24,7 @@ export KAFKA_API_SECRET=
 
 ## Consumer code
 
-This code contains the `KafkaConsumer` class which reads a list of topics and consumes a consfigurable `max_messages`.
+This code contains the `KafkaConsumer` class which reads a list of topics and consumes a configurable `max_messages`.
 
 #### Create a instance of the KafkaConsumer class
 
